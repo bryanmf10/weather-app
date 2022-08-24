@@ -2,7 +2,7 @@ import Mongoose from 'mongoose';
 const { Schema, model } = Mongoose;
 const WeatherSchema = Schema({
     id: Number,
-    date: Date,
+    date: String,
     location: {
         city: String,
         country: String
